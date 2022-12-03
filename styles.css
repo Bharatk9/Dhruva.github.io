@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.logo{
+  width: 19%;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+.logo img{
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50px;
+
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor:pointer;
+  background-color: black;
+}
+
+.nav-list{
+ width:70%;
+background-color: black;
+ display: flex;
+
+ border-right: 0%;
+
+
+}
+
+.nav-list li{
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+  padding: 26px 30px;
+
+}
+.nav-list li a{
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+
+}
+.nav-list li a:hover{
+  text-decoration: none;
+  background-color: black;
+  color: #A5F1E9;
+}
+
+
+.rightnav{
+  background-color: black;
+  width: 30%;
+  text-align: right;
+  padding: 0px 23px;
+
+}
+.topgun{
+  background-color: black;
+  text-decoration-color: white;
+
+}
+
+#Search{
+  padding: 6px;
+  font-size: 15px;
+  border: 01px solid grey;
+  border-radius: 9px;
+  vertical-align: middle;
+  color: white;
+
+}
+.background{
+  background: rgba(0, 0, 0, 0.7) url('bg.jpeg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.box-main{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+.space{
+  width: 30%;
+
+  border: 4px solid white;
+  border-radius: 350px;
+  display: block;
+  margin: auto;
+}
+.firstsection{
+  height: 100vh;
+  display: flex;
+}
+.firstHalf{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.secondHalf{
+ width: 30%;
+}
+.text-big{
+  font-size: 39px;
+  text-align: center;
+  color: white;
+
+}
+.text-small{
+  font-size: 18px;
+}
+
+.target{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 280px;
+
+}
+.student{
+  color: white;
+  text-align: center;
+  display: flex;
+}
+.btn{
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+
+}
+.btn:hover{
+  color: blue;
+}
+.btn-sm{
+padding: 6px 10px;
+vertical-align: middle;
+font-size: 12px;
+
+}
+.secRight{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+  background: rgba(0, 0, 0, 0.7) url('secbg.jpeg');
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+
+
+}
+.singlepic{
+  display: flex;
+  justify-content: center;
+
+}
+.facultyname{
+  color: white;
+  display: flex;
+  margin-top: 230px;
+vertical-align: middle;
+justify-content: flex-end;
+
+}
+.fourpics{
+  margin-bottom: 250px;
+}
+.first1pic{
+  max-width: 20%;
+  border-radius: 50px;
+  margin-left: 50px;
+  display: flex;
+margin-bottom: 100px;
+justify-content: center;
+}
+.firstpic{
+  max-width: 20%;
+  border-radius: 50px;
+  margin-left: 50px;
+
+}
+.secondpic{
+  max-width: 20%;
+  border-radius: 50px;
+  margin-left: 80px;
+}
+.thirdimg{
+  max-width: 20%;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.fourthimg{
+  max-width: 20%;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.secondWala{
+  width: 60%;
+  border: 4px solid white;
+  border-radius: 0px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.paras{
+  padding: 0 65px;
+}
+.secLeft{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: auto;
+  flex-direction: row-reverse;
+  font-family: 'Roboto Mono', monospace;
+  background: rgba(0, 0, 0, 0.7) url('secbg.jpeg');
+  background-blend-mode: darken;
+  background-size: cover;
+
+}
+.thumbnail img{
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.sectionTag{
+  padding: 16px 0;
+
+}
+.sectionSubTag{
+  font-family: 'Roboto Mono', monospace;
+}
+.secLeftLast{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: auto;
+  flex-direction: row-reverse;
+  font-family: 'Roboto Mono', monospace;
+  background: rgba(0, 0, 0, 0.7) url('secbg.jpeg');
+  background-blend-mode: darken;
+  background-size: cover;
+ color: white;
+}
+.Contact{
+  background-color: #A5F1E9;
+  max-height: 20%;
+  font-family: 'Roboto Mono', monospace;
+}
+.text-centre{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+.footer{
+  max-height: 20%;
+  text-align: center;
+  background-color: #434242
+  font-family: 'Roboto Mono', monospace;
+}
+.social{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+}
+.soc1{
+  padding-right: 30px;
+  text-decoration: none;
+}
+.soc1 a{
+  text-decoration: none;
+}
+.soc2{
+  padding-right: 30px;
+  text-decoration: none;
+}
+.soc2 a{
+  text-decoration: none;
+}
+.soc3 a{
+  text-decoration: none;
+
+}
+a:hover{
+  color: #434242;
+}
+.top1{
+  text-decoration: none;
+  color: white;
+}
+.top1 a:hover{
+  color: #434242;
+}
+.secLeft{
+  height: 100vh;
+}
+.secRight{
+  height: 100vh;
+}
+.secLeftLast{
+  height: 100vh;
+
+}
+.mail{
+  text-align: center;
+
+}
+.btn-initial{
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.sky{
+  width: 250px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}

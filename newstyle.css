@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1140px) {
+  .nav-list{
+    flex-direction: column;
+
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .rightnav{
+    text-align: center;
+  }
+  #Search{
+    width: 100%;
+  }
+
+  .burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+  }
+  .line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+  }
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 72px;
+  }
+  .v-class-resp{
+    visibility: hidden;
+  }
+}
